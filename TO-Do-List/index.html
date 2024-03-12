@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            
+                    
+                        <h1 class="head">To-Do-List</h1>
+                        <button class="by" onclick="gotoForm()">Add Task</button>
+                 
+                
+            </div>
+
+            <div class="tablee">
+            
+                <table class="table table-dark">
+                    <thead>
+                        <tr class="table-active ">
+
+                            <th>Name</th>
+                            <th>Task</th>
+                            <th>Priority</th>
+                            <th>Date</th>
+                        
+                          </tr>
+                          <!-- <tr>
+                
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2" class="table-active">Larry the Bird</td>
+                            <td>@twitter</td>
+                          </tr> -->
+                    </thead>
+                    <tbody id="Access">
+                        
+                    </tbody>
+                  </table>
+                    
+            
+            </div>
+
+
+            <div class="form" id="redirect">
+                <div class="d2">
+                    <i class="fa-solid fa-circle-xmark close" id="close" onclick="closetoForm()"></i>
+                </div>
+                
+                <div class="d1">
+                <label class="col-md-3">Name : </label>
+                <input type="text" class="col-md-9 " id="naMe" placeholder="Your good name!!">
+            </div>
+
+            <div class="d1">
+                <label class="col-md-3">Task : </label>
+                <input type="text" class="col-md-9 " id="taSk" placeholder="What you want to do !!">
+            </div>
+
+            <div class="d1">
+                <label class="col-md-3">Priority : </label>
+                <select id="chek" >
+                    <option value="Select">Select</option>
+                    <option value="High">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </div>
+
+            <div class="d1">
+                <label class="col-md-3">Date : </label>
+                <input type="date" id="dOb">
+            </div>
+
+            <div class="d1">
+                
+                <button class="by1" onclick="addTask()">Add Task</button>
+            </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

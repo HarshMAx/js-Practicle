@@ -1,0 +1,148 @@
+*{
+    background-color :bisque;
+}
+.main{
+    height: 700px;
+}
+
+.name{
+    height: 60px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: azure;
+}
+
+.by{
+    height: 60px;
+    width: 200px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    width: 500px;
+    font-size: larger;
+    display: none;
+    z-index: 1;
+    margin-left: 37%;
+    margin-top: 40px;
+    border: 2px solid black;
+    align-items: center;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color :azure;
+    box-shadow: 15px 15px ;
+    /* margin-bottom: 200px; */
+    
+}
+
+.close{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: end; */
+    background-color: azure;
+}
+
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: azure;
+
+}
+
+.tablee{
+    font-size: 25px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+tr{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid black;
+}
+
+
+input{
+    height: 50px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+label{
+    background-color: azure;
+    border-radius: 10px;
+}
+
+select{
+    border-radius: 10px;
+    background-color: azure;
+}
+option{
+    border-radius: 10px;
+    background-color: azure;
+
+}
+
+.sel{
+    border-radius: 10px;
+    background-color: azure;
+    color: black;
+}
+
+option:hover{
+    border-radius: 10px;
+    background-color:blue;
+    
+}
+.rw{
+    display: flex;
+    flex-direction: row;
+}
+
+.d1{
+    display :flex;
+    flex-direction: row;
+    /* line-height: 30px; */
+    margin-top: 25px;
+    background-color: azure;
+
+}
+.by1{
+    height: 60px;
+    width: 200px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    margin-left: 120px;
+    
+}
+
+.lv{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fname { 
+    border-radius: 10px;
+}
